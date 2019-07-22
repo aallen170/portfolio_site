@@ -1,0 +1,109 @@
+html {
+    color: white;
+    min-width: 1280px;
+    margin: auto;
+    align-content: center;
+    background-color: gray;
+}
+
+h1 {
+    text-decoration: none;
+    color: white;
+}
+
+#top {
+    height: 176px;
+    background-color: rgba(132,142,138,1);
+    border: 2pt black;
+    border-style: solid solid none solid;
+    padding-left: 36px;
+    padding-right: 36px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#name {
+    text-align: center;
+    width: 200px;
+    background-color: rgba(75,114,97,1);
+    font-size: 48pt;
+    border: 2pt solid black;
+    font-family: letter-gothic-std, monospace;
+    font-weight: 100;
+    margin: auto;
+    float: left;
+    padding-left: 15px;
+    padding-right: 25px;
+    margin-top: 10px;
+}
+
+nav.navigation {
+    display: inline-flex;
+    float: right;
+    margin-top: 15px;
+    border: 1.5pt black;
+    border-style: none none none solid;
+}
+
+nav.social {
+    float: right;
+    clear: right;
+    display: inline-flex;
+    margin-top: 80px;
+}
+
+nav.social img {
+    height: 30px;
+}
+
+nav.navigation a {
+    color: white;
+    border: 1.5pt black;
+    border-style: solid solid solid none;
+    background-color: rgba(75,114,97,1);
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    text-decoration: none;
+    font-family: letter-gothic-std, monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18pt;
+}
+
+#bottom {
+    background-color: rgb(73,92,107);
+    padding: 36px;
+    border: 2pt solid black;
+}
+
+#viewBox {
+    background-color: rgba(137,148,157,1);
+    height: 550px;
+    border: 2pt solid black;
+    color: rgb(20,20,57);
+    padding-bottom: 50px;
+    overflow: auto;
+    padding-left: 30px;
+}
+
+#viewBox img {
+    height: 300px;
+    padding: 40px;
+    filter: brightness(75%);
+    transition: 0.5s;
+}
+
+#viewBox img:hover {
+    transition: 0.5s;
+    filter: brightness(100%);
+    transform: scale(1.1);
+}
+
+#copyright {
+    position: relative;
+    float: right;
+    color: black;
+    left: 32px;
+}

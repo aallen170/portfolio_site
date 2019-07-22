@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        
+        <title>Andrew Allen - Home</title>
+        <link rel="stylesheet" type="text/css" href="css/home.css">
+        <script>
+        
+            function change(id) {
+                if (id == "1") document.getElementById("main").src = "digital/bird.jpg";
+                if (id == "2") document.getElementById("main").src = "traditional/big.JPG";
+                if (id == "3") document.getElementById("main").src = "digital/charnok.jpg";
+                if (id == "4") document.getElementById("main").src = "traditional/still1.JPG";
+            }
+        
+        </script>
+    
+    </head>
+    
+    <body>
+    
+        <div id="top">
+        
+            <a href="index.html"><h1 id="name">ANDREW<br>ALLEN</h1></a>
+            
+            <nav class="navigation">
+        
+                <a href="index.html">HOME</a>
+                <a href="about.html">ABOUT</a>
+                <a href="digital_art.html">DIGITAL ART</a>
+                <a href="traditional_art.html">TRADITIONAL ART</a>
+                <a href="game_development.html">GAME DEVELOPMENT</a>
+                <a href="contact.html">CONTACT</a>
+        
+            </nav>
+            
+            <nav class="social">
+            
+                <a href="https://www.facebook.com/andrew.allen.39566"><img src="social/facebook.png"></a>
+                
+                <a href="mailto:aallen170@gmail.com"><img src="social/gmail.png"></a>
+            
+            </nav>
+        
+        </div>
+        
+        <div id="bottom">
+        
+            <div id="scrollBox">
+                
+                <div id="imgBox">
+                    
+                    <img src="digital/bird_crop.jpg" alt="Bird" id="1" onclick="change(this.id);">
+                
+                </div>
+                
+                <div id="imgBox">
+                    
+                    <img src="traditional/big.JPG" alt="big" id="2" onclick="change(this.id);">
+                
+                </div>
+                
+                <div id="imgBox">
+                    
+                    <img src="digital/charnok_crop.jpg" alt="charnok" id="3" onclick="change(this.id);">
+                
+                </div>
+                
+                <div id="imgBox">
+                    
+                    <img src="traditional/still1.JPG" alt="still1" id="4" onclick="change(this.id);">
+                
+                </div>
+            
+            </div>
+            
+            <div id="viewBox">
+            
+                <img src="digital/bird.jpg" alt="Bird" id="main">
+            
+            </div>
+            
+            <div id="copyright"><p>©2018 Andrew Allen</p></div>
+        
+        </div>
+    
+    </body>
+
+</html>
